@@ -16,6 +16,7 @@ include_once dirname(__FILE__) . '/theme/common.inc';
 /**
  * Implements hook_form_FORM_ID_alter().
  */
+
 function bootstrap_form_system_theme_settings_alter(&$form, $form_state, $form_id = NULL) {
   // Work-around for a core bug affecting admin themes.
   // @see https://drupal.org/node/943212

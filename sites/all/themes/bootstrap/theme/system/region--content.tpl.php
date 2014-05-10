@@ -28,13 +28,16 @@
 <?php if ($content): ?>
   <div<?php print $attributes; ?>>
     <?php if ($content_attributes): ?><div<?php print $content_attributes; ?>><?php endif; ?>
-    <?php print render($page['page']['highlighted']); ?>
     <?php print render($page['breadcrumb']); ?>
     <a id="main-content"></a>
     <?php print render($page['title_prefix']); ?>
 
     <?php if ($page['title']): ?>
-      <h1 class="page-header"><?php print $page['title']; ?></h1>
+       <?php if (!drupal_is_front_page()) { ?>  <!-- Added Line -->
+	      <h1 class="page-header">
+	         <?php print $page['title']; ?>
+	      </h1>
+  		<?php } ?>
     <?php endif; ?>
 
     <?php print render($page['title_suffix']); ?>

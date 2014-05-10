@@ -90,6 +90,19 @@
       <?php print render($page['sidebar_first']); ?>
     <?php endif; ?>
 
+    <?php /* region--highlighted.tpl.php */ ?>
+    <?php if ($page['highlighted']): ?>
+      <?php print render($page['highlighted']); ?>
+    <?php endif; ?>
+
+    <?php if ($page['agencia'] || $page['despachos'] || $page['servicios']): ?>
+      <div class="row">
+          <?php print render($page['agencia']); ?>
+          <?php print render($page['despachos']); ?>
+          <?php print render($page['servicios']); ?>
+      </div>
+    <?php endif; ?>
+
     <?php /* region--content.tpl.php */ ?>
     <?php print render($page['content']); ?>
 
@@ -100,5 +113,21 @@
 
   </div>
 </div>
+
+<?php if (drupal_is_front_page()) { ?>
+  <div class="middle-container container">
+    <?php if ($page['testimonial'] || $page['corporate_video']): ?>
+        <div class="video_testimonios row">
+            <?php print render($page['corporate_video']); ?>
+            <?php print render($page['testimonial']); ?>
+        </div>
+    <?php endif; ?>
+  </div>
+<?php } ?>
+
+<div class="bottom-container container">
+  <?php include ($directory."/theme/include/clients.tpl.php"); ?>
+</div>
+
 <?php /* region--footer.tpl.php */ ?>
 <?php print render($page['footer']); ?>

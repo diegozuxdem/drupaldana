@@ -17,7 +17,11 @@ regions[sidebar_second] = 'Secondary'
 regions[footer]         = 'Footer'
 regions[page_top]       = 'Page top'
 regions[page_bottom]    = 'Page bottom'
-
+regions[testimonial]    = 'Testimonial'
+regions[corporate_video] = 'Corporate Video'
+regions[agencia]        = 'agencia'
+regions[despachos]      = 'Despachos'
+regions[servicios]      = 'Servicios'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Settings

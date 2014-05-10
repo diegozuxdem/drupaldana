@@ -27,13 +27,13 @@
 ?>
 <?php if ($page['logo'] || $page['site_name'] || $page['primary_nav'] || $page['secondary_nav'] || $content): ?>
   <header<?php print $attributes; ?>>
-    <?php if ($content_attributes): ?><div<?php print $content_attributes; ?>><?php endif; ?>
-    <div class="navbar-header">
-      <?php if ($page['logo']): ?>
+  	<?php if ($page['logo']): ?>
         <a class="logo navbar-btn pull-left" href="<?php print $page['front_page']; ?>" title="<?php print t('Home'); ?>">
           <img src="<?php print $page['logo']; ?>" alt="<?php print t('Home'); ?>" />
         </a>
-      <?php endif; ?>
+    <?php endif; ?>
+    <?php if ($content_attributes): ?><div<?php print $content_attributes; ?>><?php endif; ?>
+    <div class="navbar-header">
       <?php if ($page['site_name']): ?>
         <a class="name navbar-brand" href="<?php print $page['front_page']; ?>" title="<?php print t('Home'); ?>"><?php print $page['site_name']; ?></a>
       <?php endif; ?>

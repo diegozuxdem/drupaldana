@@ -27,9 +27,16 @@
  */
 ?>
 <?php if ($content): ?>
-  <footer<?php print $attributes; ?>>
-    <?php if ($content_attributes): ?><div<?php print $content_attributes; ?>><?php endif; ?>
-    <?php print $content; ?>
-    <?php if ($content_attributes): ?></div><?php endif; ?>
-  </footer>
+    <div class="claim-wrapper footer">
+	    <div class="container">
+	        <div class="nav-collapse">
+	            Derechos Reservados <a href="/" title="Distribuciones Aldana™ 40 Años">Distribuciones Aldana™ 40 Años</a>.
+	        </div>
+	    </div>
+	</div>
+	<footer<?php print $attributes; ?>>
+	<?php if ($content_attributes): ?><div<?php print $content_attributes; ?>><?php endif; ?>
+	<?php print $content; ?>
+	<?php if ($content_attributes): ?></div><?php endif; ?>
+	</footer>
 <?php endif; ?>

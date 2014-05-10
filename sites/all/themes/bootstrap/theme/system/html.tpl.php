@@ -57,7 +57,7 @@
   <![endif]-->
   <?php print $scripts; ?>
 </head>
-<body class="<?php print $classes; ?>" <?php print $attributes;?>>
+<body class="<?php print $classes; ?>" <?php if (!drupal_is_front_page()) { ?>id="internal"<?php } ?> <?php print $attributes;?>>
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
   </div>
@@ -66,3 +66,4 @@
   <?php print $page_bottom; ?>
 </body>
 </html>
+

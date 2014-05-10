@@ -54,3 +54,6 @@ function bootstrap_theme(&$existing, $type, $theme, $path) {
  * they are properly detected when drupal_alter() is invoked.
  */
 bootstrap_include('bootstrap', 'theme/alter.inc');
+drupal_add_js(drupal_get_path('theme', 'bootstrap') .'/js/jssor.core.js');
+drupal_add_js(drupal_get_path('theme', 'bootstrap') .'/js/jssor.slider.js');
+drupal_add_js(drupal_get_path('theme', 'bootstrap') .'/js/jssor.utils.js');
