@@ -22,6 +22,7 @@ regions[corporate_video] = 'Corporate Video'
 regions[agencia]        = 'agencia'
 regions[despachos]      = 'Despachos'
 regions[servicios]      = 'Servicios'
+regions[columna_derecha]      = 'Columna Derecha'
 
 ;;;;;;;;;;;;;;;;;;;;;
 ;; Theme Settings

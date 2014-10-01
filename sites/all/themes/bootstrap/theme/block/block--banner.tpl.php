@@ -1,0 +1,1 @@
+<?php print banner_display(42,1); ?>

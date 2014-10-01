@@ -45,6 +45,18 @@ function bootstrap_css_alter(&$css) {
       'browsers' => array('IE' => TRUE, '!IE' => TRUE),
       'weight' => -1,
     );
+    // Add Fallback
+    $offline = $theme_path . '/css/bootstrap.min.css';
+    $css[$offline] = array(
+      'data' => $offline,
+      'type' => 'file',
+      'every_page' => TRUE,
+      'media' => 'all',
+      'preprocess' => TRUE,
+      'group' => CSS_THEME,
+      'browsers' => array('IE' => TRUE, '!IE' => TRUE),
+      'weight' => -3,
+    );
   }
   if (!empty($excludes)) {
     $css = array_diff_key($css, drupal_map_assoc($excludes));
@@ -214,6 +226,12 @@ function bootstrap_js_alter(&$js) {
   $js[$bootstrap] = drupal_js_defaults($bootstrap);
   $js[$bootstrap]['group'] = JS_THEME;
   $js[$bootstrap]['scope'] = 'footer';
+
+  $offline = $theme_path . '/js/bootstrap.min.js';
+  $js[$offline] = drupal_js_defaults($offline);
+  $js[$offline]['group'] = JS_THEME;
+  $js[$offline]['scope'] = 'footer';
+
 
   if (!empty($excludes)) {
     $js = array_diff_key($js, drupal_map_assoc($excludes));

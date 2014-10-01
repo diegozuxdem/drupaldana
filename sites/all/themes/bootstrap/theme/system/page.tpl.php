@@ -107,8 +107,13 @@
     <?php print render($page['content']); ?>
 
     <?php /* region--sidebar.tpl.php */ ?>
-    <?php if ($page['sidebar_second']): ?>
-      <?php print render($page['sidebar_second']); ?>
+    
+    <!--?php if ($page['sidebar_second']): ?-->
+      <!--?php print render($page['sidebar_second']); ?-->
+    <!--?php endif; ?-->
+
+    <?php if ($page['columna_derecha']): ?>
+      <?php print render($page['columna_derecha']); ?>
     <?php endif; ?>
 
   </div>
