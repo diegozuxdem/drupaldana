@@ -48,6 +48,7 @@
 
 <head profile="<?php print $grddl_profile; ?>">
   <?php print $head; ?>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:200|Droid+Serif:700,regular|Source+Sans+Pro:200&amp;subset=latin,latin-ext" media="all" />
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <?php print $scripts; ?>

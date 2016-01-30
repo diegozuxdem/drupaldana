@@ -49,6 +49,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <?php print $head; ?>
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Dosis:200|Droid+Serif:700,regular|Source+Sans+Pro:200&amp;subset=latin,latin-ext" media="all" />
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
   <!-- HTML5 element support for IE6-8 -->

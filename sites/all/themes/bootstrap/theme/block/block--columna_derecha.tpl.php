@@ -49,14 +49,32 @@
 
     <?php print render($title_prefix); ?>
     <?php if ($title): ?>
-
+        <?php
+        /*
         <?php if (!drupal_is_front_page()) { ?>
             <h2<?php print $title_attributes; ?>><?php print $title; ?></h2>
         <?php } ?>
-
+        */
+        ?>
     <?php endif;?>
-    <?php print render($title_suffix); ?>
 
-    <?php print $content ?>lorem ipsum
+    <?php print render($title_suffix); ?>
+    <div class="primer-bloque">
+        <h3><span class="glyphicon glyphicon-send" aria-hidden="true"></span> Solidez y Experiencia</h3>
+        <p>Con 42 años de experiencia nos hemos posicionado como una de las primeras distribuidoras de la región Surcolombiana</p>
+    </div>
+    <div class="segundo-bloque">
+        <h3><span class="glyphicon glyphicon-plane"></span> Parque automotor</h3>
+        <p>La Compañía para la distribución de las mercancías dispone 6 vehículos contratados por prestación de servicios y 14 vehículos propios</p>
+    </div>
+    <div class="tercer-bloque">
+        <h3><span class="glyphicon glyphicon-certificate"></span> Calidad y confianza</h3>
+        <p>Comercializamos y distribuimos al por mayor y al detal bienes para el consumo masivo, buscamos ampliar el alcance territorial al centro y sur de Colombia con precios competitivos, alta calidad en los productos y oportunidad en las estrategias.</p>
+    </div>
+    <div class="cuarto-bloque">
+        <h3><span class="glyphicon glyphicon-envelope"></span> Contáctenos en nuestras sedes</h3>
+        <p>Nuestro liderazgo, nos hace su aliado estratégico para el crecimiento de su negocio, contáctese con nosotros.</p>
+        <?php print $content ?>
+    </div>
 
 </section>

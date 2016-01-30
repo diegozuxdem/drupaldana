@@ -10,7 +10,7 @@ margin-right: auto;">
             </div>
         </div>
         <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 980px; height: 100px; overflow: hidden;">
-            <div><img u="image" alt="DA" src="sites/all/themes/bootstrap/theme/content/logo_da.jpg" /></div>
+            <div><img u="image" alt="DA" src="sites/all/themes/bootstrap/theme/content/cereales_aldana.png" /></div>
             <div><img u="image" alt="DA" src="sites/all/themes/bootstrap/theme/content/logo40years.jpg" /></div>
             <div><img u="image" alt="El Rey" src="sites/all/themes/bootstrap/theme/content/elrey.png" width="98" height="100" /></div>
             <div><img u="image" alt="Familia" src="sites/all/themes/bootstrap/theme/content/familia.jpg" /></div>
@@ -23,16 +23,16 @@ margin-right: auto;">
             <div><img u="image" alt="3M" src="sites/all/themes/bootstrap/theme/content/3m.jpg" /></div>
             <div><img u="image" alt="Colombina" src="sites/all/themes/bootstrap/theme/content/colombina.png" /></div>
             <div><img u="image" alt="ios" src="sites/all/themes/bootstrap/theme/content/bayer.jpg" /></div>
-            <div><img u="image" alt="joomla" src="sites/all/themes/bootstrap/theme/content/joomla.jpg" /></div>
-            <div><img u="image" alt="linkedin" src="sites/all/themes/bootstrap/theme/content/linkedin.jpg" /></div>
-            <div><img u="image" alt="mac" src="sites/all/themes/bootstrap/theme/content/mac.jpg" /></div>
-            <div><img u="image" alt="magento" src="sites/all/themes/bootstrap/theme/content/magento.jpg" /></div>
-            <div><img u="image" alt="pinterest" src="sites/all/themes/bootstrap/theme/content/pinterest.jpg" /></div>
-            <div><img u="image" alt="samsung" src="sites/all/themes/bootstrap/theme/content/samsung.jpg" /></div>
-            <div><img u="image" alt="twitter" src="sites/all/themes/bootstrap/theme/content/twitter.jpg" /></div>
-            <div><img u="image" alt="windows" src="sites/all/themes/bootstrap/theme/content/windows.jpg" /></div>
-            <div><img u="image" alt="wordpress" src="sites/all/themes/bootstrap/theme/content/wordpress.jpg" /></div>
-            <div><img u="image" alt="youtube" src="sites/all/themes/bootstrap/theme/content/youtube.jpg" /></div>
+            <div><img u="image" alt="joomla" src="sites/all/themes/bootstrap/theme/content/beisbol.png" /></div>
+            <div><img u="image" alt="linkedin" src="sites/all/themes/bootstrap/theme/content/DuPont_Danisco.png" /></div>
+            <div><img u="image" alt="mac" src="sites/all/themes/bootstrap/theme/content/jgb.jpg" /></div>
+            <div><img u="image" alt="magento" src="sites/all/themes/bootstrap/theme/content/grasco.jpg" /></div>
+            <div><img u="image" alt="pinterest" src="sites/all/themes/bootstrap/theme/content/incauca.png" /></div>
+            <div><img u="image" alt="samsung" src="sites/all/themes/bootstrap/theme/content/sylvania.jpg" /></div>
+            <div><img u="image" alt="twitter" src="sites/all/themes/bootstrap/theme/content/jaibel.jpg" /></div>
+            <div><img u="image" alt="windows" src="sites/all/themes/bootstrap/theme/content/gsk.jpg" /></div>
+            <div><img u="image" alt="wordpress" src="sites/all/themes/bootstrap/theme/content/chr-hansen.png" /></div>
+            <div><img u="image" alt="youtube" src="sites/all/themes/bootstrap/theme/content/ronda.png" /></div>
         </div>
     </div>
 

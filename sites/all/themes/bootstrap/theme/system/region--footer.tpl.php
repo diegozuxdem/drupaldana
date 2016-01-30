@@ -30,7 +30,7 @@
     <div class="claim-wrapper footer">
 	    <div class="container">
 	        <div class="nav-collapse">
-	            Derechos Reservados <a href="/" title="Distribuciones Aldana™ 40 Años">Distribuciones Aldana™ 40 Años</a>.
+	            Derechos Reservados <a href="/" title="Distribuciones Aldana™ 42 Años">Distribuciones Aldana™ 42 Años</a>.
 	        </div>
 	    </div>
 	</div>
