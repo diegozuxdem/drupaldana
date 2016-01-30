@@ -1,0 +1,134 @@
+
+/*Content Frame background color / text color / background image*/
+#contentFrame,
+#schemePreview, 
+body,  
+.topFrame,
+/*.breadcrumbs,*/
+.paneTabs ul li.active, 
+.paneTabs ul li,
+.wizardBody .containerWizard {
+    background: url(http://sena.blackboard.com/themes/as_2012/images/bblearn_2011_bg.png) repeat 0 0;
+    background-color:#E7E7E7;
+    color:#000000;
+}
+/*Content area background color / text color / background image */
+#contentArea,
+#schemePreviewBody,
+.container, .contentPane div.bottomRound b {        
+    background-color:#FFFFFF;
+    color:#444444;
+}
+
+/*Primary button background / text color*/
+#primaryButton, 
+input[type="submit"].submit,
+.mainButton a, .mainButton a:hover, .mainButton a:focus,
+.mainButton a, .actionBarMicro .mainButton a:hover, .actionBarMicro .mainButton a:focus,
+.rumble .mainButton > a, .rumble_top .mainButton > a:focus, 
+.rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus, 
+.rumble .mainButton > a:hover, .rumble_top .mainButton > a:focus,
+.button-1, .button-1-img, .button-1:hover, .button-1-img:hover, .button-1:focus, .button-1-img:focus {
+    background-color:#00ADD0;
+	border-color:#00ADD0;
+    color:#FFFFFF;
+}
+
+/*Secondary button background / text color*/
+#secondaryButton, 
+.secondaryButton a, .secondaryButton a:hover, .secondaryButton a:focus,
+.button-2, .button-2-img, .button-2:hover, .button-2-img:focus, .button-2:hover, .button-2-img:focus {
+    background-color:#EFEFEF;
+	border-color:#EFEFEF;
+    color:#000000;
+}
+
+/*Page Header background color / text color / background image */
+#pageHeader, 
+#schemePreviewHead,
+div.pageTitle,
+.actionBar, 
+.contentPaneWide .actionBar,
+div.actionBar ul, 
+div.localViewToggle,
+.actionBarMicro, 
+div.contentPane div.topRound b, 
+div.topRound b,
+div.listCm div.topRound b, 
+div.buttonCm div.topRound b, 
+div.treeContainer div.topRound b,
+div.treeViewCs div.topRound b,
+div#lightboxContent h2,
+#lightbox div.topRound b,
+/*#puller,*/
+.frameResizeToggle {
+    background-color:#DEDEDE;
+	border-color:#DEDEDE;
+    color:#000000;
+}
+
+/*Top Frame Text Color */
+#topFrame, 
+div.topTabs div.topGlobalLinks ul li a.topLevel, 
+div.topTabs-compact div.topGlobalLinks ul li a.topLevel, 
+div.topTabs div.hotItems ul.hotLinks li a  {
+    color:#330000;
+}
+
+
+/*Top Frame Background Color / Background Image*/
+#topFrame, 
+.bgBanner {
+    background-color:#CCCCCC;
+	border-color:#01596B;
+}
+div.topTabs-compact {
+    background:#CCCCCC;
+	border-color:#01596B;
+}
+
+/*Top Tab Color/Background Color*/
+#topTab, 
+table.appTabs tbody tr td a, div.topTabs-compact table.appTabs tr td a,
+table.appTabs tbody tr td a:hover, div.topTabs-compact table.appTabs tr td a:hover,
+table.appTabs tbody tr td a:focus, div.topTabs-compact table.appTabs tr td a:focus {   
+    color:#FFFFFF;
+    background-color:#0188A3;
+	border-color:#0188A3;
+}
+
+/*Top Tab Active Tab Color/Background Color*/
+#topTabActive, 
+table.appTabs tbody tr td.active a, 
+table.appTabs tbody tr td.active a:hover, 
+table.appTabs tbody tr td.active a:focus,
+div.topTabs-compact table.appTabs tr td.active a, 
+div.topTabs-compact table.appTabs tr td.active a:hover, 
+div.topTabs-compact table.appTabs tr td.active a:focus {
+    color:#FFFFFF;
+    background-color:#01596B;  
+	border-color:#01596B;             
+}
+
+/*Module colors*/
+#moduleTitle, 
+.portlet h2, .portlet h2 span.reorder
+{
+    background-color:transparent;
+    color:#444444;
+}
+.portlet h2 a
+{
+    background-color: transparent;
+    color:#444444;
+}
+#moduleBorder, #moduleBody, 
+.portlet
+{
+    border-top-color: #CCCCCC;
+    border-left-color: #CCCCCC;
+    border-bottom-color: #CCCCCC;
+    border-right-color: #CCCCCC;
+    background-color:#E7E7E7;
+    color:#444444;    
+}
